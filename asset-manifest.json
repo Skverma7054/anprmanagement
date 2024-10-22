@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/anprmanagement/static/css/main.373e39c4.css",
+    "main.js": "/anprmanagement/static/js/main.6e395a8a.js",
+    "static/js/453.b8722001.chunk.js": "/anprmanagement/static/js/453.b8722001.chunk.js",
+    "static/media/biltybill.pdf": "/anprmanagement/static/media/biltybill.08cd6487c3cfe10ecaa3.pdf",
+    "static/media/image 2.png": "/anprmanagement/static/media/image 2.b907e57e376d7679728f.png",
+    "static/media/numberplate9.jpg": "/anprmanagement/static/media/numberplate9.84de35c5ef8f822f3520.jpg",
+    "static/media/ewaybill.png": "/anprmanagement/static/media/ewaybill.1a457e862f8796bce759.png",
+    "static/media/delivery-time.png": "/anprmanagement/static/media/delivery-time.c85c881bbefaf12c22af.png",
+    "static/media/numberplate.png": "/anprmanagement/static/media/numberplate.e67ab77f25ad4a5e333f.png",
+    "static/media/checkin.webp": "/anprmanagement/static/media/checkin.7ef0674b5c99c7777bec.webp",
+    "static/media/checkout.webp": "/anprmanagement/static/media/checkout.4e79d39f1976931319fb.webp",
+    "static/media/truck.png": "/anprmanagement/static/media/truck.6675f904b1243080d6a5.png",
+    "static/media/security-camera.png": "/anprmanagement/static/media/security-camera.c2da09d1b4972c4c749c.png",
+    "index.html": "/anprmanagement/index.html",
+    "main.373e39c4.css.map": "/anprmanagement/static/css/main.373e39c4.css.map",
+    "main.6e395a8a.js.map": "/anprmanagement/static/js/main.6e395a8a.js.map",
+    "453.b8722001.chunk.js.map": "/anprmanagement/static/js/453.b8722001.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.373e39c4.css",
+    "static/js/main.6e395a8a.js"
+  ]
+}
