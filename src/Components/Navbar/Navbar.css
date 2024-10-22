@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  justify-content: space-between; /* Space between logo and icons */
+  align-items: center;
+  background-color: #ffffff; /* Background color */
+  padding: 10px 40px; /* Padding around the navbar */
+  box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.11); /* Drop shadow */
+  position: relative; /* For dropdown positioning */
+}
+
+.logo {
+  font-size: 24px; /* Logo font size */
+  font-weight: bold; /* Logo font weight */
+  color: #4a90e2; /* Logo color */
+}
+
+.admin-icon {
+  position: relative; /* For dropdown menu positioning */
+  cursor: pointer; /* Change cursor on hover */
+  display: flex; /* Align icons horizontally */
+
+  justify-content: flex-end;
+  align-items: center; /* Center icons vertically */
+}
+
+.icon {
+  margin-left: 20px; /* Space between icons */
+  font-size: 24px; /* Icon size */
+}
+
+.dropdown-menu {
+  position: absolute; /* Position dropdown */
+  right: 0; /* Align to the right of the icon */
+  top: 40px; /* Adjust vertical position */
+  background-color: white; /* Dropdown background color */
+  border: 1px solid #ccc; /* Dropdown border */
+  border-radius: 4px; /* Rounded corners */
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Dropdown shadow */
+  z-index: 1000; /* Ensure dropdown is above other elements */
+}
+
+.dropdown-menu button {
+  background: none; /* Remove default button styling */
+  border: none; /* Remove border */
+  padding: 10px 20px; /* Padding for button */
+  width: 100%; /* Full width button */
+  text-align: left; /* Align text to the left */
+  cursor: pointer; /* Change cursor on hover */
+}
+
+.dropdown-menu button:hover {
+  background-color: #f0f0f0; /* Hover effect */
+}

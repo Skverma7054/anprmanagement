@@ -1,0 +1,49 @@
+.parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) 1fr; /* 2 columns for cards 1 and 2, and 1 column for card 5 */
+  grid-template-rows: repeat(2, 1fr); /* 2 rows for cards 1 to 4 */
+  grid-column-gap: 20px; /* No gap between columns */
+  grid-row-gap: 20px; /* No gap between rows */
+  height: 50vh; /* Full viewport height */
+}
+
+.div1 {
+  grid-area: 1 / 1 / 2 / 2; /* Card 1 occupies top-left */
+}
+
+.div2 {
+  grid-area: 1 / 2 / 2 / 3; /* Card 2 occupies top-right */
+}
+
+.div3 {
+  grid-area: 2 / 1 / 3 / 2; /* Card 3 occupies bottom-left */
+}
+
+.div4 {
+  grid-area: 2 / 2 / 3 / 3; /* Card 4 occupies bottom-right */
+}
+
+.div5 {
+  grid-area: 1 / 3 / 3 / 4; /* Card 5 occupies the right side covering the height of both rows */
+}
+
+/* Add some basic styles for the cards */
+
+.div1,
+.div2,
+.div3,
+.div4,
+.div5 {
+  /* background: #4b57ec; */
+  padding: 10px;
+  /* background-color: #007bff; Example background color */
+  /* color: white; */
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* font-size: 24px; */
+  border-radius: 18px;
+  box-shadow: 0px 11px 25px 0px #6d72e640;
+
+  /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); */
+}

@@ -1,0 +1,11 @@
+.content {
+  box-sizing: border-box;
+  margin-left: 90px;
+  /* display: grid;  */
+  /* min-height: 100vh; Full height */
+  /* margin-top: 5px; Adjust this value to create space below the navbar */
+  /* margin-left: 100px; */
+  /* margin-left: 250px; Adjust this value to create space from the sidebar */
+  padding: 20px; /* Optional: Add padding for internal spacing */
+  transition: margin-left 0.3s; /* Optional: Add a transition for smooth sidebar toggle if implemented */
+}
